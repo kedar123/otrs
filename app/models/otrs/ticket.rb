@@ -1,5 +1,6 @@
 class OTRS::Ticket < OTRS
   # Validations aren't working
+  
   validates_presence_of :title
   validates_presence_of :body
   validates_presence_of :email
